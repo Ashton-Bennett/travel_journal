@@ -1,0 +1,23 @@
+PUT http://localhost:3000/api/journal/3
+Content-Type: application/json
+
+{
+  "title":"Canada", 
+  "date": "08/15/2015",
+  "imageFolder": "canadaImages",
+  "content": ["The end of the road trip.", "Played a house party that included the drinking olympics!"]
+
+}
+
+
+### Check for non exsistant id
+PUT http://localhost:3000/api/journal/4
+Content-Type: application/json
+
+{
+  "title":"Jamaica", 
+  "date": "08/18/2015",
+  "imageFolder": "canadaImages",
+  "content": ["The end of the road trip.", "Played a house party that included the drinking olympics!"]
+
+}

@@ -1,0 +1,4 @@
+DELETE http://localhost:3000/api/journal/5
+
+### check for unknown id
+DELETE http://localhost:3000/api/journal/12312312

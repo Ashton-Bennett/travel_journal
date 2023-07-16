@@ -1,0 +1,7 @@
+GET http://localhost:3000/api/journal
+
+### checks unknown end points
+GET http://localhost:3000/api/journal/50000
+
+### checks for single Journal
+GET http://localhost:3000/api/journal/2

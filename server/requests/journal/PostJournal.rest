@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/journal
+Content-Type: application/json
+
+{
+  "title":"Jamaca", 
+  "date": "08/18/2015",
+  "imageFolder": "canadaImages",
+  "content": ["The end of the road trip.", "Played a house party that included the drinking olympics!"]
+
+}
+
+
+  
